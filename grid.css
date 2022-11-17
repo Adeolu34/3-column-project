@@ -1,0 +1,42 @@
+body{
+    background-color: #0E0212;
+    width: 50vw;
+    height: 100vh;
+    margin: auto;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 300px;
+    grid-gap: 1em;
+    padding: 2rem;
+    justify-content: center;    
+}
+.div1{
+    grid-column: 1/3;
+    grid-row: 1/2;
+    grid-template-rows: 100px;
+    background-color: orangered;
+    
+}
+.div2{
+    background-color: yellowgreen;
+    grid-column: 3;
+}
+.div3{
+    grid-column: 1/2;
+    grid-row: 2/20;
+    background-color: green;
+}
+.div4{
+    grid-column: 2/4;
+    grid-row: 2/20;
+    display: grid;
+    grid-gap: 1em;
+}
+.net1{
+    background-color: aquamarine;
+}
+.net2{
+    background-color: aqua;
+}
